@@ -4,7 +4,12 @@
   position: absolute;
   right: 0;
 }
-
+@media screen and (max-width: 1365px) {
+  .darkMode {
+    position: static;
+    right: unset;
+  }
+}
 .darkMode__label {
   width: 100px;
   height: 42px;

@@ -76,7 +76,7 @@
 }
 
 @media screen and (max-width: 1365px) {
-  .header__navigation {
+  .header__navigation :not(:first-child) {
     display: none;
   }
 }
@@ -97,6 +97,7 @@
   width: 200px;
 }
 .header__logo__img {
-  width: 90%;
+  width: 100%;
   height: 60%;
+  margin-left: -22px;
 }

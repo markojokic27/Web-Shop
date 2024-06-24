@@ -1,6 +1,6 @@
 import classes from "./index.module.css";
 import images from "../../../assets/images/index";
-import DarkMode from "./DarkMode/DarkMode";
+import DarkMode from "../DarkMode/DarkMode";
 
 function Navigation(props) {
   return (
@@ -20,7 +20,7 @@ function Navigation(props) {
         <div className={classes.header__underline}></div>
       </ul>
 
-      <DarkMode />
+      <DarkMode id="1" theme={props.theme} toggleTheme={props.toggleTheme}/>
     </div>
   );
 }

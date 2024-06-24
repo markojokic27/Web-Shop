@@ -1,25 +1,19 @@
 import classes from "./index.module.css";
-import images from "../../../../assets/images/index";
+import images from "../../../assets/images/index";
 
-function DarkMode() {
-  const setMode = (mode) => {
-    document.querySelector("body").setAttribute("data-theme", mode);
-    localStorage.setItem("theme", mode);
-  };
-  const theme = localStorage.getItem("theme");
-  if (theme) setMode(theme);
-  const toggleTheme = (e) => setMode(e.target.checked ? "dark" : "light");
+function DarkMode({id, theme, toggleTheme }) {
+  
 
   return (
     <div className={classes.darkMode}>
       <input
         type="checkbox"
-        id={`darkmode-toggle`}
+        id={`darkmode-toggle${id}`}
         onChange={toggleTheme}
         defaultChecked={theme === "dark"}
         className={classes.darkMode__input}
       />
-      <label htmlFor={`darkmode-toggle`} className={classes.darkMode__label}>
+      <label htmlFor={`darkmode-toggle${id}`} className={classes.darkMode__label}>
         <img
           src={images.sun}
           alt="Sun"
