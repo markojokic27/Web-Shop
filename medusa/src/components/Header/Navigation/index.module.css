@@ -1,8 +1,11 @@
 .header__navigation {
   display: flex;
+  position: relative;
   align-items: center;
+  width: 100%;
   height: 100%;
 }
+
 .header__navigation > ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -11,10 +14,12 @@
   display: flex;
   align-items: center;
   height: 100%;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.header__navigation ul {
-  position: relative;
-}
+
 .header__navigation a {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -78,4 +83,20 @@
 
 .header__button {
   margin-left: 10px;
+}
+.header__logo {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 200px;
+}
+.header__logo__img {
+  width: 90%;
+  height: 60%;
 }
