@@ -1,6 +1,7 @@
 import classes from "./index.module.css";
 import images from "../../../assets/images/index";
 import DarkMode from "../DarkMode/DarkMode";
+import { Link } from "react-router-dom";
 
 function Navigation(props) {
   return (
@@ -14,9 +15,9 @@ function Navigation(props) {
       </div>
 
       <ul>
-        <a href="google.com">Shop</a>
-        <a href="google.com">Medusa</a>
-        <a href="google.com">About</a>
+        <Link to="/">Shop</Link>
+        <Link to="/cart">Cart</Link>
+        <Link to="/about">About</Link>
         <div className={classes.header__underline}></div>
       </ul>
 

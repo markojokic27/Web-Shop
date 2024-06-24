@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import DarkMode from "../DarkMode/DarkMode";
 import classes from "./index.module.css";
 
@@ -13,12 +13,10 @@ function MobileMenu(props) {
       }`}
     >
       <div className={classes.mobileMenu__wrapper} onClick={handleClick}>
-        <a href="a">SHOP</a>
-        <a href="a">CART</a>
-        <a href="a">ABOUT</a>
-        <DarkMode id="2" theme={props.theme} toggleTheme={props.toggleTheme} />
-        
-        
+        <Link to="/">SHOP</Link>
+        <Link to="/cart">CART</Link>
+        <Link to="/about">ABOUT</Link>
+        <DarkMode id="2" theme={props.theme} toggleTheme={props.toggleTheme} /> 
       </div>
     </div>
   );
