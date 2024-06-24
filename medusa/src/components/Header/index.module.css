@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+  z-index: 100;
+  background-color: var(--navigation_background);
+  width: 100%;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.header__wrapper {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
