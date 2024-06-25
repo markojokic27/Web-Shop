@@ -1,0 +1,338 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "T-shirt",
+      "description": "Opis majice",
+      "price": 19.99,
+      "colors": [
+        {
+          "color": "white",
+          "hex": "#FFFFFF",
+          "sizes": {
+            "S": 10,
+            "M": 15,
+            "L": 5,
+            "XL": 3
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8,
+            "M": 12,
+            "L": 7,
+            "XL": 4
+          }
+        },
+        {
+          "color": "red",
+          "hex": "#FF0000",
+          "sizes": {
+            "S": 5,
+            "M": 9,
+            "L": 6,
+            "XL": 2
+          }
+        },
+        {
+          "color": "blue",
+          "hex": "#0000FF",
+          "sizes": {
+            "S": 5,
+            "M": 9,
+            "L": 6,
+            "XL": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "T-shirt2",
+      "description": "Opis majice",
+      "price": 14.99,
+      "colors": [
+        {
+          "color": "white",
+          "hex": "#FFFFFF",
+          "sizes": {
+            "S": 10,
+            "M": 15,
+            "L": 5,
+            "XL": 3
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8,
+            "M": 12,
+            "L": 7,
+            "XL": 4
+          }
+        },
+        {
+          "color": "red",
+          "hex": "#FF0000",
+          "sizes": {
+            "S": 5,
+            "M": 9,
+            "L": 6,
+            "XL": 2
+          }
+        },
+        {
+          "color": "blue",
+          "hex": "#0000FF",
+          "sizes": {
+            "S": 5,
+            "M": 9,
+            "L": 6,
+            "XL": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Backpack",
+      "description": "Opis majice",
+      "price": 19.99,
+      "colors": [
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8
+          }
+        },
+        {
+          "color": "blue",
+          "hex": "#0000FF",
+          "sizes": {
+            "S": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bottle",
+      "description": "Opis majice",
+      "price": 19.99,
+      "colors": [
+        {
+          "color": "white",
+          "hex": "#FFFFFF",
+          "sizes": {
+            "S": 10
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Cap",
+      "description": "Opis majice",
+      "price": 19.99,
+      "colors": [
+        {
+          "color": "white",
+          "hex": "#FFFFFF",
+          "sizes": {
+            "S": 10
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8
+          }
+        },
+        {
+          "color": "blue",
+          "hex": "#0000FF",
+          "sizes": {
+            "S": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Case",
+      "description": "Opis majice",
+      "price": 19.99,
+      "colors": [
+        {
+          "color": "white",
+          "hex": "#FFFFFF",
+          "sizes": {
+            "S": 10
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Mug",
+      "description": "Opis majice",
+      "price": 19.99,
+      "colors": [
+        {
+          "color": "white",
+          "hex": "#FFFFFF",
+          "sizes": {
+            "S": 10
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Socks",
+      "description": "Opis majice",
+      "price": 19.99,
+      "colors": [
+        {
+          "color": "white",
+          "hex": "#FFFFFF",
+          "sizes": {
+            "S": 10
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Sticker",
+      "description": "Opis majice",
+      "price": 19.99,
+      "colors": [
+        {
+          "color": "white",
+          "hex": "#FFFFFF",
+          "sizes": {
+            "S": 10
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Tote",
+      "description": "Opis majice",
+      "price": 19.99,
+      "colors": [
+        {
+          "color": "white",
+          "hex": "#FFFFFF",
+          "sizes": {
+            "S": 10
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8
+          }
+        },
+        {
+          "color": "blue",
+          "hex": "#0000FF",
+          "sizes": {
+            "S": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Sweatshirt",
+      "description": "Opis majice",
+      "price": 14.99,
+      "colors": [
+        {
+          "color": "white",
+          "hex": "#FFFFFF",
+          "sizes": {
+            "S": 10,
+            "M": 15,
+            "L": 5,
+            "XL": 3
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8,
+            "M": 12,
+            "L": 7,
+            "XL": 4
+          }
+        },
+        {
+          "color": "red",
+          "hex": "#FF0000",
+          "sizes": {
+            "S": 5,
+            "M": 9,
+            "L": 6,
+            "XL": 2
+          }
+        },
+        {
+          "color": "blue",
+          "hex": "#0000FF",
+          "sizes": {
+            "S": 5,
+            "M": 9,
+            "L": 6,
+            "XL": 2
+          }
+        }
+      ]
+    }
+  ]
+}

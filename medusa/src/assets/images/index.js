@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
-import logoLight from "./logoLight.svg";
-import moon from "./Moon.svg";
-import sun from "./Sun.svg";
+import logo from "./svg/logo.svg";
+import logoLight from "./svg/logoLight.svg";
+import moon from "./svg/Moon.svg";
+import sun from "./svg/Sun.svg";
 const images = {
   logo: logo,
   logoLight: logoLight,
