@@ -249,8 +249,8 @@
           }
         },
         {
-          "color": "black",
-          "hex": "#000000",
+          "color": "cyan",
+          "hex": "#00FFFF",
           "sizes": {
             "S": 8
           }
