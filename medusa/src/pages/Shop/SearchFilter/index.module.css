@@ -1,0 +1,29 @@
+.categoryFilter__wrapper{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: var(--card_background);
+  border-radius: 30px;
+  box-shadow: 0 0 12px #00000033;
+  height: 76px;
+  @media screen and (max-width: 646px) {
+    width: 100%;
+  }
+}
+.categoryFilter{
+  width: 80%;
+  height: 30px;
+  border: none;
+  line-height: 18px;
+  font-size: 18px;
+  background-color: var(--card_background);
+  color: var(--body_color);
+}
+.categoryFilter:focus{
+  outline: none;
+  border: none;
+  background-color: var(--card_background);
+  color: var(--body_color);
+}

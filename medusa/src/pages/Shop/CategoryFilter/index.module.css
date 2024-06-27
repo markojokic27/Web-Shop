@@ -3,7 +3,10 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 50%;
+  @media screen and (max-width: 646px) {
+    width: 100%;
+  }
 }
 .categoryFilter {
   display: flex;
@@ -39,4 +42,5 @@
   margin-left: 8px;
   font-size: 18px;
   font-weight: 600;
+  color: var(--body_color);
 }

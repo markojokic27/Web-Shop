@@ -13,11 +13,15 @@
   --body_background: #f5fffa;
   --body_color: #000000;
   --card_background: #ffffff;
+  --image_color: #f9f9f9;
+  --heading_color: #000000;
 }
 [data-theme="dark"] {
   --body_background: #121212;
   --body_color: #ffffff;
   --card_background: #252525;
+  --image_color: #3b3b3b;
+  --heading_color: #56fbb1;
 }
 
 * {

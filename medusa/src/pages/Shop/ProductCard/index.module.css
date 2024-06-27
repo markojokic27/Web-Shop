@@ -20,7 +20,7 @@
   justify-content: center;
   overflow: hidden;
   border-radius: 10px;
-  background-color: #f9f9f9;
+  background-color: var(--image_color);
   margin-bottom: 12px;
 }
 .productCard__image{

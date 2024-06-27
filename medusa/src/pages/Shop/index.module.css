@@ -19,5 +19,24 @@
 }
 .shop__filters{
   display: flex;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+@media screen and (max-width: 646px) {
+  .shop__filters{
+    flex-direction: column;
+  }
+}
+.shop__wrapper h1{
+  font-size: 54px;
+  font-weight: 700;
+  color: var(--heading_color);
+  margin-bottom: 30px;
+}
+.shop__notFound{
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--heading_color);
+  margin-top: 40px;
 }
