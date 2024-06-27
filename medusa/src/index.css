@@ -10,14 +10,14 @@
 
   --navigation_background: #252525;
   --gold:#ddaf53;
-  --body_background: #faf3e5;
+  --body_background: #f5fffa;
   --body_color: #000000;
   --card_background: #ffffff;
 }
 [data-theme="dark"] {
   --body_background: #121212;
   --body_color: #ffffff;
-  --card_background: #000000;
+  --card_background: #252525;
 }
 
 * {
