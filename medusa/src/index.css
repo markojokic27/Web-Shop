@@ -51,25 +51,25 @@ h1 {
 }
 
 button {
-  height: 42px;
-  border-radius: 42px;
-  padding: 0 20px;
+  height: 60px;
+  border-radius: 60px;
+  padding: 0 30px;
   cursor: pointer;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 18px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 24px;
   text-align: center;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
   border: unset;
   z-index: 1;
   position: relative;
-  background: #ddaf53;
+  background: #56fbb1;
   transition: all 0.3s;
   overflow: hidden;
-  border: 4px solid #ddaf53;
+  border: 4px solid #56fbb1;
 }
 
 button::before {

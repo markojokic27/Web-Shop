@@ -1,11 +1,11 @@
-.sizeSelect__wrapper {
+.amountSelect{
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 20px;
   width: 170px
 }
-.sizeSelect select{
+.amountSelect input{
   width: 100px;
   height: 40px;
   border-radius: 10px;
@@ -20,7 +20,7 @@
   margin-left: 10px;
 }
 
-.sizeSelect p{
+.amountSelect p{
   font-size: 18px;
   font-weight: 500;
   color: var(--body_color);
