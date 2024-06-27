@@ -9,7 +9,7 @@ import AmountSelect from "./AmountSelect/AmountSelect";
 
 function Product() {
   const { productId } = useParams();
-  const { products } = useContext(FormContext);
+  const { products, cart, setCart } = useContext(FormContext);
   const product = products.find((product) => product.id === productId);
   const [selectedColor, setSelectedColor] = useState(
     product ? product.colors[0].color : ""
@@ -36,6 +36,18 @@ function Product() {
 
   const imagePath = images[`${selectedColor}${product.name.replace(/[-]/g, "")}`];
   const amount = color.sizes[selectedSize];
+
+  const handleAddToCart = () => {
+    const purchasedProduct = {
+      name: product.name,
+      color: selectedColor,
+      size: selectedSize,
+      amount: selectedAmount,
+      price: product.price,
+    };
+    setCart([...cart, purchasedProduct]);
+    console.log(cart);
+  }
 
   return (
     <div className={classes.product}>
@@ -67,7 +79,7 @@ function Product() {
           /></div>
           <p>Available: {amount}</p>
           <h2>Price: €{product.price}</h2>
-          <button className={classes.product__button}>Add to cart</button>
+          <button className={classes.product__button} onClick={handleAddToCart}>Add to cart</button>
         </div>
       </div>
     </div>

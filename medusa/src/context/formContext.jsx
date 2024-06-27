@@ -4,11 +4,13 @@ export const FormContext = createContext();
 
 export const FormProvider = ({ children }) => {
   const [products, setProducts] = useState([]);
-  
+  const [cart, setCart] = useState([]);
 
   const contextValue = {
     products,
-    setProducts
+    setProducts,
+    cart,
+    setCart
     
   };
 
