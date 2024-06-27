@@ -34,7 +34,8 @@ function Product() {
     return <div>Color not found</div>;
   }
 
-  const imagePath = images[`${selectedColor}${product.name.replace(/[-]/g, "")}`];
+  const imagePath =
+    images[`${selectedColor}${product.name.replace(/[-]/g, "")}`];
   const amount = color.sizes[selectedSize];
 
   const handleAddToCart = () => {
@@ -47,7 +48,7 @@ function Product() {
     };
     setCart([...cart, purchasedProduct]);
     console.log(cart);
-  }
+  };
 
   return (
     <div className={classes.product}>
@@ -64,22 +65,25 @@ function Product() {
             setSelectedColor={setSelectedColor}
           />
           <div className={classes.product__selects}>
-          {Object.keys(color.sizes).length > 1 && (
-            <SizeSelect
-              setSelectedSize={setSelectedSize}
-              selectedSize={selectedSize}
-              product={product}
-              selectedColor={selectedColor}
+            {Object.keys(color.sizes).length > 1 && (
+              <SizeSelect
+                setSelectedSize={setSelectedSize}
+                selectedSize={selectedSize}
+                product={product}
+                selectedColor={selectedColor}
+              />
+            )}
+            <AmountSelect
+              maxAmount={amount}
+              selectedAmount={selectedAmount}
+              setSelectedAmount={setSelectedAmount}
             />
-          )}
-          <AmountSelect
-            maxAmount={amount}
-            selectedAmount={selectedAmount}
-            setSelectedAmount={setSelectedAmount}
-          /></div>
+          </div>
           <p>Available: {amount}</p>
           <h2>Price: €{product.price}</h2>
-          <button className={classes.product__button} onClick={handleAddToCart}>Add to cart</button>
+          <button className={classes.product__button} onClick={handleAddToCart}>
+            Add to cart
+          </button>
         </div>
       </div>
     </div>

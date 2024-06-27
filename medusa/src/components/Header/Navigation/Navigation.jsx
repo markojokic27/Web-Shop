@@ -6,13 +6,15 @@ import { Link } from "react-router-dom";
 function Navigation(props) {
   return (
     <div className={classes.header__navigation}>
-      <div className={classes.header__logo}>
-        <img
-          src={images.logoLight}
-          alt="logo"
-          className={classes.header__logo__img}
-        />
-      </div>
+      <Link to="/">
+        <div className={classes.header__logo}>
+          <img
+            src={images.logoLight}
+            alt="logo"
+            className={classes.header__logo__img}
+          />
+        </div>
+      </Link>
 
       <ul>
         <Link to="/">Shop</Link>
@@ -21,7 +23,7 @@ function Navigation(props) {
         <div className={classes.header__underline}></div>
       </ul>
 
-      <DarkMode id="1" theme={props.theme} toggleTheme={props.toggleTheme}/>
+      <DarkMode id="1" theme={props.theme} toggleTheme={props.toggleTheme} />
     </div>
   );
 }

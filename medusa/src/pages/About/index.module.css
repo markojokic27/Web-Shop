@@ -3,3 +3,9 @@
   height: 100%;
   background-color: var(--body_background);
 }
+.about h1{
+  font-size: 54px;
+  font-weight: 700;
+  color: var(--heading_color);
+  padding: 40px 0;
+}

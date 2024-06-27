@@ -6,7 +6,8 @@ function NotFound() {
   const navigate = useNavigate();
   useEffect(() => {
     setTimeout(() => {
-      navigate("/");}, 3000);
+      navigate("/");
+    }, 3000);
   }, [navigate]);
   return (
     <div className={classes.notFound}>

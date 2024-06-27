@@ -4,7 +4,10 @@ import { FormContext } from "../../context/formContext";
 
 function Cart() {
   const { cart } = useContext(FormContext);
-  const total = cart.reduce((acc, product) => acc + product.price * product.amount, 0);
+  const total = cart.reduce(
+    (acc, product) => acc + product.price * product.amount,
+    0
+  );
   return (
     <div className={classes.cart}>
       <h1>Cart</h1>
@@ -33,7 +36,7 @@ function Cart() {
             {cart.map((product, index) => (
               <div key={index} className={classes.cart__product}>
                 <div>
-                  <p>{product.name}</p>
+                  <p>{product.name.replace(/\d/g, "")}</p>
                 </div>
                 <div>
                   <p>{product.color}</p>

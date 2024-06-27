@@ -7,7 +7,9 @@ function SizeSelect(props) {
     setSelectedSize(event.target.value);
   };
 
-  const sizes = product.colors.find(color => color.color === selectedColor).sizes;
+  const sizes = product.colors.find(
+    (color) => color.color === selectedColor
+  ).sizes;
 
   return (
     <div className={classes.sizeSelect}>
@@ -15,7 +17,9 @@ function SizeSelect(props) {
         <p>Size:</p>
         <select value={selectedSize} onChange={handleSizeChange}>
           {Object.keys(sizes).map((size) => (
-            <option key={size} value={size}>{size}</option>
+            <option key={size} value={size}>
+              {size}
+            </option>
           ))}
         </select>
       </div>

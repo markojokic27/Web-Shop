@@ -18,7 +18,7 @@ function Header() {
       <div className={classes.header}>
         <div className={classes.header__wrapper}>
           <Navigation theme={theme} toggleTheme={toggleTheme} />
-          <Hamburger  
+          <Hamburger
             hamburgerActive={hamburgerActive}
             setHamburgerActive={setHamburgerActive}
           />

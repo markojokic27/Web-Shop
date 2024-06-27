@@ -14,13 +14,13 @@ function SearchFilter(props) {
   };
   return (
     <div className={classes.categoryFilter__wrapper}>
-        <input
-          type="text"
-          placeholder="Search..."
-          value={searchTerm}
-          onChange={handleSearchChange}
-          className={classes.categoryFilter}
-        />
+      <input
+        type="text"
+        placeholder="Search..."
+        value={searchTerm}
+        onChange={handleSearchChange}
+        className={classes.categoryFilter}
+      />
     </div>
   );
 }

@@ -10,8 +10,7 @@ export const FormProvider = ({ children }) => {
     products,
     setProducts,
     cart,
-    setCart
-    
+    setCart,
   };
 
   return (

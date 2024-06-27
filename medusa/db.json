@@ -8,16 +8,6 @@
       "category": "Clothing",
       "colors": [
         {
-          "color": "white",
-          "hex": "#FFFFFF",
-          "sizes": {
-            "S": 10,
-            "M": 15,
-            "L": 5,
-            "XL": 3
-          }
-        },
-        {
           "color": "black",
           "hex": "#000000",
           "sizes": {
@@ -25,6 +15,16 @@
             "M": 12,
             "L": 7,
             "XL": 4
+          }
+        },
+        {
+          "color": "white",
+          "hex": "#FFFFFF",
+          "sizes": {
+            "S": 10,
+            "M": 15,
+            "L": 5,
+            "XL": 3
           }
         },
         {
@@ -67,16 +67,6 @@
           }
         },
         {
-          "color": "black",
-          "hex": "#000000",
-          "sizes": {
-            "S": 8,
-            "M": 12,
-            "L": 7,
-            "XL": 4
-          }
-        },
-        {
           "color": "red",
           "hex": "#FF0000",
           "sizes": {
@@ -84,6 +74,16 @@
             "M": 9,
             "L": 6,
             "XL": 2
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8,
+            "M": 12,
+            "L": 7,
+            "XL": 4
           }
         },
         {
@@ -159,17 +159,17 @@
           }
         },
         {
-          "color": "black",
-          "hex": "#000000",
-          "sizes": {
-            "S": 8
-          }
-        },
-        {
           "color": "blue",
           "hex": "#0000FF",
           "sizes": {
             "S": 5
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8
           }
         }
       ]
@@ -205,17 +205,17 @@
       "category": "Drinkware",
       "colors": [
         {
-          "color": "white",
-          "hex": "#FFFFFF",
-          "sizes": {
-            "S": 10
-          }
-        },
-        {
           "color": "black",
           "hex": "#000000",
           "sizes": {
             "S": 8
+          }
+        },
+        {
+          "color": "white",
+          "hex": "#FFFFFF",
+          "sizes": {
+            "S": 10
           }
         }
       ]
@@ -281,17 +281,17 @@
           }
         },
         {
-          "color": "black",
-          "hex": "#000000",
-          "sizes": {
-            "S": 8
-          }
-        },
-        {
           "color": "blue",
           "hex": "#0000FF",
           "sizes": {
             "S": 5
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8
           }
         }
       ]
@@ -314,16 +314,6 @@
           }
         },
         {
-          "color": "black",
-          "hex": "#000000",
-          "sizes": {
-            "S": 8,
-            "M": 12,
-            "L": 7,
-            "XL": 4
-          }
-        },
-        {
           "color": "red",
           "hex": "#FF0000",
           "sizes": {
@@ -331,6 +321,16 @@
             "M": 9,
             "L": 6,
             "XL": 2
+          }
+        },
+        {
+          "color": "black",
+          "hex": "#000000",
+          "sizes": {
+            "S": 8,
+            "M": 12,
+            "L": 7,
+            "XL": 4
           }
         },
         {

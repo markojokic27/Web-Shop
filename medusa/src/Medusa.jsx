@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound/NotFound";
 import { useContext, useEffect } from "react";
 import { FormContext } from "./context/formContext";
 import axios from "axios";
+import Footer from "./components/Footer/Footer";
 
 function Medusa() {
   const { setProducts } = useContext(FormContext);
@@ -29,6 +30,7 @@ function Medusa() {
         <Route path="/:productId" element={<Product />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }

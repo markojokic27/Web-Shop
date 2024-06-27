@@ -23,12 +23,14 @@ function Shop() {
             setFilteredProducts={setFilteredProducts}
             products={products}
           />
-          <SearchFilter 
-            setDisplayProducts={setDisplayProducts} 
+          <SearchFilter
+            setDisplayProducts={setDisplayProducts}
             filteredProducts={filteredProducts}
           />
         </div>
-        {displayProducts.length === 0 && <h2 className={classes.shop__notFound}>No products found</h2>}
+        {displayProducts.length === 0 && (
+          <h2 className={classes.shop__notFound}>No products found</h2>
+        )}
         <div className={classes.shop__products}>
           {displayProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
