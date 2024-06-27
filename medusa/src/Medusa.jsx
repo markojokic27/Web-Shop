@@ -26,7 +26,7 @@ function Medusa() {
         <Route path="/" element={<Shop />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/about" element={<About />} />
-        <Route path="/products/:productId" element={<Product />} />
+        <Route path="/:productId" element={<Product />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

@@ -1,0 +1,28 @@
+.sizeSelect__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 200px
+}
+.sizeSelect select{
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--card_background);
+  color: var(--body_color);
+  box-shadow: 0 0 12px #00000033;
+  cursor: pointer;
+  text-align: center;
+}
+
+.sizeSelect p{
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--body_color);
+  margin: 10px 0;
+  text-align: left;
+}

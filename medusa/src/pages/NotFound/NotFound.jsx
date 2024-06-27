@@ -6,12 +6,12 @@ function NotFound() {
   const navigate = useNavigate();
   useEffect(() => {
     setTimeout(() => {
-      navigate(-1);}, 3000);
+      navigate("/");}, 3000);
   }, [navigate]);
   return (
     <div className={classes.notFound}>
       <h1>NOT FOUND</h1>
-      <p>Returning to the previous page in 3 seconds.</p>
+      <p>Returning to the shop page in 3 seconds.</p>
     </div>
   );
 }

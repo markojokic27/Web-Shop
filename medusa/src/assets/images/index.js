@@ -3,8 +3,8 @@ import logoLight from "./svg/logoLight.svg";
 import moon from "./svg/Moon.svg";
 import sun from "./svg/Sun.svg";
 import blackTote from "./tote/blackTote.png";
-import blueTote from "./tote/blackTote.png";
-import whiteTote from "./tote/blackTote.png";
+import blueTote from "./tote/blueTote.png";
+import whiteTote from "./tote/whiteTote.png";
 import blackSweatshirt from "./sweatshirt/blackSweatshirt.png";
 import blueSweatshirt from "./sweatshirt/blueSweatshirt.png";
 import whiteSweatshirt from "./sweatshirt/whiteSweatshirt.png";
@@ -72,7 +72,7 @@ const images = {
   blackTshirt2: blackTshirt2,
   blueTshirt2: blueTshirt2,
   redTshirt2: redTshirt2,
-  
+
 };
 
 export default images;
