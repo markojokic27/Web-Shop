@@ -2,9 +2,11 @@ import { useContext, useEffect, useState } from "react";
 import classes from "./index.module.css";
 import { FormContext } from "../../context/formContext";
 import ProductCard from "./ProductCard/ProductCard";
+import CategoryFilter from "./CategoryFilter/CategoryFilter";
 function Shop() {
   const { products } = useContext(FormContext);
   const [filteredProducts, setFilteredProducts] = useState([]);
+
   useEffect(() => {
     setFilteredProducts(products);
   }, [products]);
@@ -12,7 +14,12 @@ function Shop() {
     <div className={classes.shop}>
       <div className={classes.shop__wrapper}>
         <h1>Shop</h1>
-        
+        <div className={classes.shop__filters}>
+          <CategoryFilter
+            setFilteredProducts={setFilteredProducts}
+            products={products}
+          />
+        </div>
         <div className={classes.shop__products}>
           {filteredProducts.map((product) => (
             <ProductCard key={product.id} product={product} />

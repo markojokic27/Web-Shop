@@ -248,7 +248,7 @@
       "name": "Sticker",
       "description": "Medusa Sticker, made of vinyl. Decorate your items with style.",
       "price": 0.99,
-      "category": "Stationery",
+      "category": "Accessories",
       "colors": [
         {
           "color": "white",
@@ -271,7 +271,7 @@
       "name": "Tote",
       "description": "Medusa Tote, made of durable canvas. Carry your essentials with ease.",
       "price": 9.99,
-      "category": "Bags",
+      "category": "Accessories",
       "colors": [
         {
           "color": "white",

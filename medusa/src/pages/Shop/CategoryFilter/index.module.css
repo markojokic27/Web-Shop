@@ -1,0 +1,42 @@
+.categoryFilter__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.categoryFilter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: var(--card_background);
+  border-radius: 30px;
+  box-shadow: 0 0 12px #00000033;
+  cursor: pointer;
+  width: 100%;
+}
+.categoryFilter__checkboxes {
+  background-color: var(--card_background);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filters__checkbox {
+  width: clamp(150px, 50%, 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filters__checkbox label {
+  margin-left: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
