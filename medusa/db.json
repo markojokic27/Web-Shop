@@ -3,8 +3,9 @@
     {
       "id": 1,
       "name": "T-shirt",
-      "description": "Opis majice",
+      "description": "Medusa T-shirt, made of 100% cotton. Comfortable and stylish.",
       "price": 19.99,
+      "category": "Clothing",
       "colors": [
         {
           "color": "white",
@@ -51,8 +52,9 @@
     {
       "id": 2,
       "name": "T-shirt2",
-      "description": "Opis majice",
+      "description": "Medusa T-shirt, made of 100% organic cotton. Perfect for casual wear.",
       "price": 14.99,
+      "category": "Clothing",
       "colors": [
         {
           "color": "white",
@@ -99,8 +101,9 @@
     {
       "id": 3,
       "name": "Backpack",
-      "description": "Opis majice",
+      "description": "Medusa Backpack, made of durable polyester. Spacious and stylish.",
       "price": 19.99,
+      "category": "Accessories",
       "colors": [
         {
           "color": "black",
@@ -121,8 +124,9 @@
     {
       "id": 4,
       "name": "Bottle",
-      "description": "Opis majice",
-      "price": 19.99,
+      "description": "Medusa Bottle, made of BPA-free plastic. Keep your drinks cold.",
+      "price": 9.99,
+      "category": "Drinkware",
       "colors": [
         {
           "color": "white",
@@ -143,8 +147,9 @@
     {
       "id": 5,
       "name": "Cap",
-      "description": "Opis majice",
-      "price": 19.99,
+      "description": "Medusa Cap, made of 100% cotton. Stay cool and stylish.",
+      "price": 9.99,
+      "category": "Accessories",
       "colors": [
         {
           "color": "white",
@@ -172,8 +177,9 @@
     {
       "id": 6,
       "name": "Case",
-      "description": "Opis majice",
-      "price": 19.99,
+      "description": "Medusa Case, made of sturdy materials. Protect your essentials.",
+      "price": 7.99,
+      "category": "Accessories",
       "colors": [
         {
           "color": "white",
@@ -194,8 +200,9 @@
     {
       "id": 7,
       "name": "Mug",
-      "description": "Opis majice",
-      "price": 19.99,
+      "description": "Medusa Mug, made of ceramic. Enjoy your beverages in style.",
+      "price": 7.99,
+      "category": "Drinkware",
       "colors": [
         {
           "color": "white",
@@ -216,8 +223,9 @@
     {
       "id": 8,
       "name": "Socks",
-      "description": "Opis majice",
-      "price": 19.99,
+      "description": "Medusa Socks, made of soft and breathable fabric. Perfect for everyday wear.",
+      "price": 4.99,
+      "category": "Clothing",
       "colors": [
         {
           "color": "white",
@@ -238,8 +246,9 @@
     {
       "id": 9,
       "name": "Sticker",
-      "description": "Opis majice",
-      "price": 19.99,
+      "description": "Medusa Sticker, made of vinyl. Decorate your items with style.",
+      "price": 0.99,
+      "category": "Stationery",
       "colors": [
         {
           "color": "white",
@@ -260,8 +269,9 @@
     {
       "id": 10,
       "name": "Tote",
-      "description": "Opis majice",
-      "price": 19.99,
+      "description": "Medusa Tote, made of durable canvas. Carry your essentials with ease.",
+      "price": 9.99,
+      "category": "Bags",
       "colors": [
         {
           "color": "white",
@@ -289,8 +299,9 @@
     {
       "id": 11,
       "name": "Sweatshirt",
-      "description": "Opis majice",
-      "price": 14.99,
+      "description": "Medusa Sweatshirt, made of a cotton-polyester blend. Stay warm and comfortable.",
+      "price": 24.99,
+      "category": "Clothing",
       "colors": [
         {
           "color": "white",
